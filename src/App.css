@@ -1,0 +1,27 @@
+#root {
+   max-width: 1280px;
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
+}
+
+.registerBox {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   height: 350px;
+   width: 450px;
+   border: 1px solid black;
+   border-radius: 12%;
+   background: rgb(105, 232, 177);
+   background: linear-gradient(
+      90deg,
+      rgba(105, 232, 177, 1) 0%,
+      rgba(124, 232, 212, 1) 33%,
+      rgba(72, 203, 232, 1) 71%,
+      rgba(159, 222, 238, 1) 95%
+   );
+   box-shadow: 28px 22px 15px -3px rgba(0, 0, 0, 0.1),
+      0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
